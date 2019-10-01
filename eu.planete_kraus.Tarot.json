@@ -27,8 +27,8 @@
 	    "sources": [
 		{
 		    "type": "archive",
-		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.3.6.tar.gz",
-		    "sha256": "f2344f9329a9557db4514f13741d3386ae0990f06f986765773dbf14d68293e5"
+		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.4.0.tar.gz",
+		    "sha256": "4c80ef07f739ea3f96dcd51bc7ca222ce7de7594626e058002a231e12380083e"
 		}
 	    ],
 	    "config-opts": [
