@@ -27,8 +27,8 @@
 	    "sources": [
 		{
 		    "type": "archive",
-		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.0.tar.gz",
-		    "sha256": "66294272b7de0b64bb1be33aa760da83c5cf8b5db670de2d14500dad5b61a061"
+		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.2.tar.gz",
+		    "sha256": "2b7f481852da04c534ab7dfe8e8b1fd712446eba6d067df514b25339e3ae5da5"
 		}
 	    ],
 	    "config-opts": [
