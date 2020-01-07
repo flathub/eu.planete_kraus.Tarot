@@ -22,13 +22,24 @@
     ],
     "modules": [
 	{
+	    "name": "guile",
+	    "buildsystem": "autotools",
+	    "sources": [
+	        {
+		    "type": "archive",
+		    "url": "https://ftp.gnu.org/gnu/guile/guile-2.2.6.tar.gz",
+		    "sha256": "08c0e7487777740b61cdd97949b69e8a5e2997d8c2fe6c7e175819eb18444506"
+		}
+	    ]
+	},
+	{
 	    "name": "tarot",
 	    "buildsystem": "autotools",
 	    "sources": [
 		{
 		    "type": "archive",
-		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.0.tar.gz",
-		    "sha256": "66294272b7de0b64bb1be33aa760da83c5cf8b5db670de2d14500dad5b61a061"
+		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.1.tar.gz",
+		    "sha256": "0f6871d5b22671241612e66e7eb0dc772607333045f09a5458cc0f0ee5cf17a3"
 		}
 	    ],
 	    "config-opts": [
