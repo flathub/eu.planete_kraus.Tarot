@@ -2,7 +2,7 @@
     "app-id": "eu.planete_kraus.Tarot",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "20.08",
+    "runtime-version": "19.08",
 
     "command": "tarot",
     "finish-args": [
@@ -27,8 +27,8 @@
 	    "sources": [
 		{
 		    "type": "archive",
-		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.2.tar.gz",
-		    "sha256": "2b7f481852da04c534ab7dfe8e8b1fd712446eba6d067df514b25339e3ae5da5"
+		    "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.3.tar.gz",
+		    "sha256": "88f357ebcfe5fefe8806c84085fe42766bbfd700296bd052b19371d822b8474d"
 		}
 	    ],
 	    "config-opts": [
