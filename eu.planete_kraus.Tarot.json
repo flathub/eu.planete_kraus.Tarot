@@ -2,12 +2,12 @@
     "app-id": "eu.planete_kraus.Tarot",
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
-    "runtime-version": "25.08",
+    "runtime-version": "26.08",
     "command": "tarot",
     "finish-args": [
-      "--socket=x11",
-      "--socket=wayland",
-      "--share=ipc"
+        "--socket=x11",
+        "--socket=wayland",
+        "--share=ipc"
     ],
     "cleanup": [
         "/include",
@@ -26,17 +26,16 @@
         {
             "name": "tarot",
             "buildsystem": "autotools",
+            "config-opts": [
+                "--enable-silent-rules=yes"
+            ],
             "sources": [
                 {
                     "type": "archive",
                     "url": "https://play-tarot.frama.io/tarot-releases/tarot-1.5.5.tar.gz",
                     "sha256": "c8bfcf2ee258ba374d37ae3f55976333d1c9de875451e24a58b2b4b41db2d06c"
                 }
-            ],
-            "config-opts": [
-            "--enable-silent-rules=yes"
             ]
         }
     ]
 }
-
